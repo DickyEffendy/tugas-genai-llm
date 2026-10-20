@@ -232,6 +232,68 @@ Ringkas materi berikut dalam Bahasa Indonesia. Ambil ide-ide utamanya dan buat h
 - Hasil berisi 7 konsep utama, 6 istilah, dan 4 pertanyaan latihan.
 - Tingkat kesulitan yang dihasilkan: `menengah`.
 
+**Actual Output A — Hasil JSON dari eksperimen**
+
+```json
+{
+  "title": "Pengenalan Machine Learning",
+  "summary": "Machine learning adalah cabang kecerdasan buatan yang memungkinkan komputer belajar pola dari data tanpa diprogram secara eksplisit. Prosesnya meliputi pengumpulan, pembersihan, pemilihan model, pelatihan, evaluasi, dan penggunaan model untuk prediksi. Pada supervised learning model belajar dari data berlabel, sedangkan unsupervised learning menemukan pola pada data tanpa label. Kualitas data sangat memengaruhi hasil, sehingga model harus dievaluasi pada data yang tidak dipakai saat pelatihan. Machine learning dapat diterapkan pada klasifikasi email, rekomendasi produk, prediksi permintaan, dan deteksi anomali, namun hasilnya dapat terpengaruh oleh bias, data tidak lengkap, atau perubahan pola dunia nyata.",
+  "key_concepts": [
+    "Proses machine learning: pengumpulan, pembersihan, pemilihan model, pelatihan, evaluasi, dan prediksi",
+    "Supervised learning: belajar dari data berlabel",
+    "Unsupervised learning: menemukan pola pada data tanpa label",
+    "Evaluasi model pada data yang tidak digunakan saat pelatihan",
+    "Pengaruh kualitas dan representasi data terhadap akurasi model",
+    "Bias data dan perubahan pola dapat menurunkan performa model",
+    "Aplikasi umum: klasifikasi email, rekomendasi produk, prediksi permintaan, deteksi anomali"
+  ],
+  "key_terms": [
+    {
+      "term": "Machine learning",
+      "definition": "Cabang kecerdasan buatan yang memungkinkan komputer mempelajari pola dari data tanpa aturan eksplisit."
+    },
+    {
+      "term": "Supervised learning",
+      "definition": "Metode pembelajaran di mana model dilatih menggunakan data yang sudah memiliki label atau jawaban yang benar."
+    },
+    {
+      "term": "Unsupervised learning",
+      "definition": "Metode pembelajaran yang mencari struktur atau pola dalam data yang tidak memiliki label."
+    },
+    {
+      "term": "Model",
+      "definition": "Representasi matematis atau algoritma yang dipelajari dari data untuk melakukan prediksi atau klasifikasi."
+    },
+    {
+      "term": "Bias data",
+      "definition": "Kesalahan sistematis dalam data yang dapat menyebabkan model menghasilkan prediksi yang tidak akurat atau tidak adil."
+    },
+    {
+      "term": "Anomali",
+      "definition": "Pola atau kejadian yang menyimpang secara signifikan dari kebiasaan data normal, sering digunakan untuk deteksi penipuan atau kegagalan."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "question": "Apa perbedaan utama antara supervised learning dan unsupervised learning?",
+      "answer": "Supervised learning menggunakan data berlabel untuk melatih model, sedangkan unsupervised learning mencari pola pada data tanpa label."
+    },
+    {
+      "question": "Mengapa penting mengevaluasi model pada data yang tidak digunakan selama pelatihan?",
+      "answer": "Untuk menilai kemampuan model dalam menggeneralisasi ke situasi baru dan menghindari overfitting."
+    },
+    {
+      "question": "Sebutkan dua faktor yang dapat menurunkan akurasi model machine learning!",
+      "answer": "Bias pada data dan perubahan pola di dunia nyata (concept drift)."
+    },
+    {
+      "question": "Berikan contoh aplikasi machine learning dalam kehidupan sehari-hari.",
+      "answer": "Klasifikasi email spam, rekomendasi produk di e-commerce, prediksi permintaan barang, atau deteksi anomali pada transaksi keuangan."
+    }
+  ],
+  "difficulty_level": "menengah"
+}
+```
 Output JSON lengkap untuk eksperimen tersimpan dalam `experiments/actual_outputs.json`.
 
 ### Prompt B — Role, Task, dan Context
@@ -249,6 +311,81 @@ Gunakan Bahasa Indonesia yang jelas dan mudah dipahami.
 - Ringkasan membahas machine learning, proses pengolahan data dan model, supervised dan unsupervised learning, evaluasi, serta penerapan machine learning.
 - Hasil berisi 7 konsep utama, 9 istilah, dan 4 pertanyaan latihan.
 - Dibandingkan Prompt A, hasil B mencakup lebih banyak istilah terkait.
+
+**Actual Output B — Hasil JSON dari eksperimen**
+
+```json
+{
+  "title": "Pengenalan Machine Learning",
+  "summary": "Machine learning (ML) adalah bagian dari kecerdasan buatan yang memungkinkan komputer belajar pola dari data tanpa diprogram secara eksplisit. Proses ML meliputi pengumpulan dan pembersihan data, pemilihan model, pelatihan, evaluasi, dan penggunaan model untuk prediksi. Pada supervised learning model belajar dari data berlabel, sedangkan pada unsupervised learning model mencari pola tanpa label. Kualitas data sangat memengaruhi hasil; model harus dievaluasi pada data yang tidak dipakai saat pelatihan untuk mengukur kemampuan pada situasi baru. ML dapat diterapkan pada klasifikasi email, rekomendasi produk, prediksi permintaan, dan deteksi anomali, namun hasil dapat terpengaruh oleh bias, data tidak lengkap, atau perubahan pola dunia nyata.",
+  "key_concepts": [
+    "Machine learning sebagai cabang kecerdasan buatan",
+    "Tahapan umum machine learning: pengumpulan data, pembersihan data, pemilihan model, pelatihan, evaluasi, dan prediksi",
+    "Perbedaan supervised learning (data berlabel) dan unsupervised learning (data tidak berlabel)",
+    "Pengaruh kualitas dan representasi data terhadap performa model",
+    "Pentingnya evaluasi model pada data yang tidak digunakan selama pelatihan",
+    "Berbagai aplikasi machine learning: klasifikasi email, rekomendasi produk, prediksi permintaan, deteksi anomali",
+    "Risiko bias, data tidak lengkap, dan perubahan pola yang dapat menurunkan akurasi model"
+  ],
+  "key_terms": [
+    {
+      "term": "Machine Learning",
+      "definition": "Cabang kecerdasan buatan yang memungkinkan komputer belajar pola dari data tanpa aturan eksplisit."
+    },
+    {
+      "term": "Kecerdasan Buatan (AI)",
+      "definition": "Bidang ilmu komputer yang berfokus pada pembuatan sistem yang dapat meniru perilaku cerdas manusia."
+    },
+    {
+      "term": "Supervised Learning",
+      "definition": "Metode pembelajaran di mana model dilatih menggunakan data yang sudah memiliki label atau jawaban yang benar."
+    },
+    {
+      "term": "Unsupervised Learning",
+      "definition": "Metode pembelajaran di mana model mencari struktur atau pola dalam data yang tidak memiliki label."
+    },
+    {
+      "term": "Model",
+      "definition": "Representasi matematis atau algoritma yang dipelajari dari data untuk melakukan prediksi atau klasifikasi."
+    },
+    {
+      "term": "Pelatihan (Training)",
+      "definition": "Proses menyesuaikan parameter model menggunakan data pelatihan agar model dapat mengenali pola."
+    },
+    {
+      "term": "Evaluasi",
+      "definition": "Pengujian performa model pada data yang tidak pernah dilihat selama pelatihan untuk mengukur kemampuan generalisasi."
+    },
+    {
+      "term": "Bias Data",
+      "definition": "Kecenderungan kesalahan dalam data yang dapat menyebabkan model menghasilkan prediksi yang tidak adil atau tidak akurat."
+    },
+    {
+      "term": "Deteksi Anomali",
+      "definition": "Penerapan machine learning untuk mengidentifikasi data yang menyimpang secara signifikan dari pola normal."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "question": "Apa perbedaan utama antara supervised learning dan unsupervised learning?",
+      "answer": "Supervised learning menggunakan data berlabel untuk melatih model, sedangkan unsupervised learning mencari pola pada data tanpa label."
+    },
+    {
+      "question": "Mengapa penting untuk mengevaluasi model pada data yang tidak digunakan selama pelatihan?",
+      "answer": "Untuk mengukur kemampuan model dalam menggeneralisasi ke situasi baru dan menghindari overfitting."
+    },
+    {
+      "question": "Sebutkan dua faktor yang dapat menurunkan akurasi model machine learning!",
+      "answer": "Bias pada data dan data yang tidak lengkap atau tidak representatif."
+    },
+    {
+      "question": "Berikan contoh aplikasi machine learning dalam kehidupan sehari-hari.",
+      "answer": "Klasifikasi email spam, rekomendasi produk di e-commerce, prediksi permintaan barang, atau deteksi anomali pada transaksi keuangan."
+    }
+  ],
+  "difficulty_level": "menengah"
+}
+```
 
 Output JSON lengkap untuk eksperimen tersimpan dalam `experiments/actual_outputs.json`.
 
@@ -277,6 +414,63 @@ Jangan gunakan Markdown atau code fence.
 - Hasil eksperimen normal berisi 5 konsep utama, 5 istilah, dan 4 pertanyaan latihan.
 - Prompt C mengarahkan model untuk memakai informasi yang didukung teks, membatasi ringkasan, dan tidak membuat konsep jika input tidak informatif.
 - Pada pengujian input acak, Prompt C menghasilkan judul `Materi Tidak Dapat Diproses` dan mengembalikan array konsep, istilah, serta pertanyaan latihan yang kosong.
+
+**Actual Output C — Hasil JSON dari eksperimen**
+
+```json
+{
+  "title": "Pengantar Machine Learning",
+  "summary": "Machine learning adalah cabang kecerdasan buatan yang memungkinkan komputer mempelajari pola dari data tanpa aturan khusus. Prosesnya meliputi pengumpulan, pembersihan, pemilihan model, pelatihan, evaluasi, dan prediksi. Terdapat dua pendekatan utama, supervised learning dengan data berlabel dan unsupervised learning tanpa label, serta kualitas data sangat memengaruhi hasil model.",
+  "key_concepts": [
+    "Machine learning memungkinkan komputer belajar pola dari data tanpa aturan khusus",
+    "Tahapan umum machine learning meliputi pengumpulan data, pembersihan data, pemilihan model, pelatihan, evaluasi, dan prediksi",
+    "Supervised learning menggunakan data berlabel, sedangkan unsupervised learning mencari pola pada data tanpa label",
+    "Evaluasi model harus dilakukan pada data yang tidak dipakai selama pelatihan untuk menilai kemampuan generalisasi",
+    "Kualitas data memengaruhi hasil model; bias, data tidak lengkap, dan perubahan pola dapat menurunkan akurasi"
+  ],
+  "key_terms": [
+    {
+      "term": "Machine learning",
+      "definition": "Cabang kecerdasan buatan yang memungkinkan komputer mempelajari pola dari data tanpa harus diprogram dengan aturan khusus untuk setiap situasi"
+    },
+    {
+      "term": "Supervised learning",
+      "definition": "Metode pembelajaran di mana model belajar dari contoh yang memiliki label"
+    },
+    {
+      "term": "Unsupervised learning",
+      "definition": "Metode pembelajaran yang mencari pola pada data tanpa label"
+    },
+    {
+      "term": "Bias",
+      "definition": "Kecenderungan model menghasilkan prediksi yang tidak akurat karena data yang digunakan memiliki kecenderungan atau kesalahan"
+    },
+    {
+      "term": "Evaluasi model",
+      "definition": "Proses menilai kemampuan model pada data yang tidak digunakan selama pelatihan untuk mengukur performa pada situasi baru"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "question": "Apa yang dimaksud dengan machine learning?",
+      "answer": "Cabang kecerdasan buatan yang memungkinkan komputer mempelajari pola dari data tanpa harus diprogram dengan aturan khusus untuk setiap situasi"
+    },
+    {
+      "question": "Sebutkan dua jenis pembelajaran dalam machine learning dan perbedaannya!",
+      "answer": "Supervised learning, dimana model belajar dari data berlabel; dan unsupervised learning, dimana model mencari pola pada data tanpa label"
+    },
+    {
+      "question": "Mengapa penting melakukan evaluasi model pada data yang tidak dipakai saat pelatihan?",
+      "answer": "Untuk menilai kemampuan model dalam menggeneralisasi ke situasi baru dan memastikan tidak overfitting"
+    },
+    {
+      "question": "Faktor apa saja yang dapat menurunkan akurasi model machine learning menurut teks?",
+      "answer": "Bias pada data, data yang tidak lengkap, dan perubahan pola di dunia nyata"
+    }
+  ],
+  "difficulty_level": "menengah"
+}
+```
 
 Output JSON lengkap untuk eksperimen tersimpan dalam `experiments/actual_outputs.json`.
 
