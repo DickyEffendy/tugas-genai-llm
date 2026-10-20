@@ -4,9 +4,11 @@ import json
 import logging
 import os
 from typing import Literal
+from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field, ValidationError
 
 load_dotenv()
@@ -170,6 +172,17 @@ app = FastAPI(
         "konsep utama, istilah, dan pertanyaan latihan dalam JSON terstruktur."
     ),
 )
+
+
+
+# Frontend StudyMate AI: buka melalui http://127.0.0.1:8000/app
+APP_DIR = Path(__file__).resolve().parent
+
+
+@app.get("/app", include_in_schema=False)
+def study_app() -> FileResponse:
+    """Menampilkan antarmuka web StudyMate AI."""
+    return FileResponse(APP_DIR / "static" / "index.html")
 
 
 @app.get("/")
