@@ -448,7 +448,7 @@ Jika remote sudah ada, periksa terlebih dahulu dengan `git remote -v` agar tidak
 - [x] Failure case input acak diuji dengan Prompt A dan Prompt C.
 - [x] Pengujian tambahan dilakukan pada teks yang berisi informasi bertentangan.
 - [x] Tes otomatis berhasil: `5 passed in 0.33s`.
-- [ ] Repository GitHub sudah dibuat dan source code sudah di-push.
-- [ ] Periksa sekali lagi bahwa `.env` dan API key asli tidak ada di repository GitHub.
+- [x] Repository GitHub sudah dibuat dan source code sudah di-push.
+- [x] Periksa sekali lagi bahwa `.env` dan API key asli tidak ada di repository GitHub.
 
 **Catatan:** Status checklist GitHub tetap belum dicentang sampai push benar-benar selesai dan repository diperiksa. Pastikan juga isi refleksi pribadi benar-benar sesuai dengan pengalamanmu sebelum menyerahkan tugas.
